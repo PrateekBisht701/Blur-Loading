@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .bg {
+    background: url('img/IMG_20220723_121455.jpg')
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+  }
+
+  h1 {
+    font-size: 80px;
+    margin-top: 15%;
+    padding-left: 30%;
+    background-image: linear-gradient(to right bottom, #c42881, #e93d60, #f7683c, #ee970f, #d1c400, #a0d342, #6add75, #00e3a7, #00c8d1, #00a7fc, #007eff, #273ee0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -5px -5px 1px #f7f7f7;
+}
+
+  .loading-text {
+    font-size: 50px;
+    color: #fff;
+  }
